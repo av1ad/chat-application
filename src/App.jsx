@@ -1,17 +1,7 @@
-import "./App.css";
-import Chat from "./components/chat/Chat";
-import Detail from "./components/detail/Detail";
-
-
-function App() {
-
+const App = () => {
   return (
-    <div className="container">
-      <Detail />
-      <Chat />
-      
-    </div>
-  );
+    <div className=''>App</div>
+  )
 }
 
-export default App;
+export default App
